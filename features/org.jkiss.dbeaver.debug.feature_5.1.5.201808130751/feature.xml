@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jkiss.dbeaver.debug.feature"
+      label="%featureName"
+      version="5.1.5.201808130751"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.jkiss.dbeaver.core.feature" version="1.0.0"/>
+   </requires>
+
+   <plugin id="org.jkiss.dbeaver.debug.core" download-size="51" install-size="104" version="1.0.19.201808130751" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.debug.ui" download-size="71" install-size="182" version="1.0.19.201808130751" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.ext.postgresql.debug.core" download-size="37" install-size="76" version="1.0.19.201808130751" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.ext.postgresql.debug.ui" download-size="17" install-size="33" version="1.0.19.201808130751" unpack="false"/>
+
+</feature>

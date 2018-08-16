@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jkiss.dbeaver.ext.wmi.nls.feature"
+      label="%featureName"
+      version="1.0.22.201808130751"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="DBeaver Universal Database Manager" url="https://dbeaver.io/"/>
+   </url>
+
+   <plugin
+         id="org.jkiss.wmi.nls"
+         os="win32"
+         download-size="0"
+         install-size="0"
+         version="1.0.22.201808130751"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ext.wmi.nls"
+         os="win32"
+         download-size="1"
+         install-size="1"
+         version="1.0.22.201808130751"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

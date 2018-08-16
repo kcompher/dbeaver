@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+        id="org.jkiss.dbeaver.ext.generic.feature"
+        label="%featureName"
+        version="2.1.76.201808130751"
+        provider-name="%providerName"
+        plugin="org.jkiss.dbeaver.ext.generic">
+
+    <description>
+        %description
+    </description>
+
+    <copyright>
+        %copyright
+    </copyright>
+
+    <license url="%licenseURL">
+        %license
+    </license>
+
+    <requires>
+        <import feature="org.jkiss.dbeaver.core.feature" version="1.0.0"/>
+    </requires>
+
+    <plugin id="org.jkiss.dbeaver.ext.derby" download-size="5" install-size="9" version="1.1.75.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.es.ui" download-size="10" install-size="31" version="1.0.1.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.firebird" download-size="28" install-size="61" version="1.0.91.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.generic" download-size="170" install-size="456" version="2.3.76.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.h2" download-size="4" install-size="7" version="1.0.45.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.hana" download-size="5" install-size="9" version="1.0.19.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.hsqldb" download-size="11" install-size="23" version="1.0.37.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.informix" download-size="7" install-size="14" version="1.0.81.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.mssql" download-size="68" install-size="144" version="1.0.84.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.netezza" download-size="4" install-size="6" version="1.0.55.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.phoenix" download-size="7" install-size="11" version="1.0.59.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.postgresql" download-size="525" install-size="1244" version="2.1.63.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.snowflake.core" download-size="6" install-size="11" version="1.0.13.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.snowflake.ui" download-size="22" install-size="38" version="1.0.13.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.sqlite" download-size="21" install-size="43" version="1.0.39.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.teradata" download-size="5" install-size="8" version="1.0.58.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.vertica" download-size="36" install-size="92" version="2.0.20.201808130751" unpack="false"/>
+</feature>

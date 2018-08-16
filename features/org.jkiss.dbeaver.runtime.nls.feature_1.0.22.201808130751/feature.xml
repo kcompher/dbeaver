@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jkiss.dbeaver.runtime.nls.feature"
+      label="%featureName"
+      version="1.0.22.201808130751"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="DBeaver Universal Database Manager" url="https://dbeaver.io/"/>
+   </url>
+
+   <plugin id="org.jkiss.utils.nls" download-size="0" install-size="0" version="1.0.22.201808130751" fragment="true" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.model.nls" download-size="10" install-size="35" version="1.0.22.201808130751" fragment="true" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.runtime.ide.core.nls" download-size="2" install-size="1" version="1.0.22.201808130751" fragment="true" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.core.nls" download-size="125" install-size="669" version="5.1.5.201808130751" fragment="true" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.ui.nls" download-size="0" install-size="0" version="1.0.22.201808130751" fragment="true" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.ext.erd.nls" download-size="7" install-size="17" version="1.0.22.201808130751" fragment="true" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.ext.import_config.nls" download-size="0" install-size="0" version="1.0.22.201808130751" fragment="true" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.ext.ui.locks.nls" download-size="0" install-size="0" version="1.0.22.201808130751" fragment="true" unpack="false"/>
+   <plugin id="org.jkiss.dbeaver.ext.mockdata.nls" download-size="5" install-size="20" version="1.0.0.201808130751" fragment="true" unpack="false"/>
+
+
+</feature>

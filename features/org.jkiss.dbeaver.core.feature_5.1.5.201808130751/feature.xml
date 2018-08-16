@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+        id="org.jkiss.dbeaver.core.feature"
+        label="%featureName"
+        version="5.1.5.201808130751"
+        provider-name="%providerName"
+        plugin="org.jkiss.dbeaver.core">
+
+    <description>
+        %description
+    </description>
+
+    <copyright>
+        %copyright
+    </copyright>
+
+    <license url="%licenseURL">
+        %license
+    </license>
+
+    <requires>
+        <import plugin="org.eclipse.core.runtime"/>
+        <import plugin="org.eclipse.core.resources"/>
+        <import plugin="org.eclipse.core.expressions"/>
+        <import plugin="org.eclipse.ui"/>
+        <import plugin="org.eclipse.ui.workbench"/>
+        <import plugin="org.eclipse.ui.workbench.texteditor"/>
+        <import plugin="org.eclipse.swt"/>
+        <import plugin="org.eclipse.jface"/>
+        <import plugin="org.eclipse.jface.text"/>
+        <import plugin="org.eclipse.ui.views"/>
+        <import plugin="org.eclipse.search"/>
+
+        <!--
+            GEF/draw2d are needed by all custom renderers (ERD, Locks, etc)
+        -->
+        <import plugin="org.eclipse.draw2d"/>
+        <import plugin="org.eclipse.gef"/>
+
+        <!--
+            Debug plugins are required (implicitly) by many 3rd party extensions like Git.
+            And we need them anyway.
+        -->
+        <import plugin="org.eclipse.debug.core"/>
+        <import plugin="org.eclipse.debug.ui"/>
+    </requires>
+
+    <!-- 3rd party -->
+    <plugin id="com.github.jsqlparser" download-size="400" install-size="943" version="1.2.0" unpack="false"/>
+    <plugin id="org.apache.commons.jexl" download-size="261" install-size="564" version="2.1.1" unpack="false"/>
+    <plugin id="net.sf.opencsv" download-size="19" install-size="37" version="2.3.0" unpack="false"/>
+
+    <!-- DBeaver -->
+    <plugin id="org.jkiss.dbeaver.model" download-size="1222" install-size="2472" version="1.0.79.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.runtime.ide.core" download-size="11" install-size="18" version="2.1.12.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.runtime.ide.ui" download-size="12" install-size="19" version="1.1.12.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.core" download-size="3310" install-size="7346" version="5.1.5.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.net.ssh" download-size="14" install-size="25" version="1.0.11.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.net.ssh.jsch" download-size="7" install-size="12" version="1.1.0.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.net.ssh.ui" download-size="13" install-size="25" version="1.0.11.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ui" download-size="597" install-size="850" version="5.1.5.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.erd" download-size="278" install-size="580" version="2.0.92.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.import_config" download-size="58" install-size="104" version="2.1.53.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.ui.locks" download-size="38" install-size="79" version="1.0.35.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.utils" download-size="75" install-size="148" version="2.1.73.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.ext.mockdata" download-size="79" install-size="173" version="1.0.16.201808130751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.data.transfer" download-size="279" install-size="656" version="1.0.0.201808130751" unpack="false"/>
+
+    <!-- GIS -->
+    <plugin id="com.vividsolutions.jts" download-size="787" install-size="1563" version="1.13.0" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.data.gis" download-size="7" install-size="11" version="1.0.14.201808130751" unpack="false"/>
+
+</feature>
